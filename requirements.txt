@@ -26,6 +26,7 @@ sentence_transformers
 bertopic
 spacy
 stanza
+gensim
 
 # Finetuning
 peft
