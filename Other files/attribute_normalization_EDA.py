@@ -330,13 +330,15 @@ dataset_raw['BERTopic'] = topics
 lda_output
 
 #%%
-# bertopic_model.visualize_topics()
+bertopic_model.visualize_topics()
 
+#%%
 # Topic hierarchy
 bertopic_model.visualize_hierarchy()
 
+#%%
 # Topic similarity
-# bertopic_model.visualize_heatmap()
+bertopic_model.visualize_heatmap()
 
 #%% ##### TF-IDF Topic Modeling #####
 from sklearn.feature_extraction.text import TfidfVectorizer
