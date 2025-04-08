@@ -18,6 +18,7 @@ scikit-learn
 scipy
 plotly
 fuzzywuzzy
+xlsxwriter
 
 # LLMs
 google-generativeai
