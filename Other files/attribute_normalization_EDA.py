@@ -183,6 +183,10 @@ df.to_csv('minilm_kmeans_clustered.csv', index=False)
 #%%
 df.groupby(['cluster', 'current_label']).size().reset_index(name='count')
 
+
+
+
+
 #%% ##### TOPIC MODELING #####
 # Topic Modeling Prep
 dataset_normalized_attributes = pd.read_excel('Data/Normalized_product_attribute_name.xlsx', sheet_name = 'Normalized Product Attributes')
@@ -433,6 +437,8 @@ plot_topic_distribution(dataset_raw['TFIDF_LDA_Topic'], 'Distribution of TF-IDF 
 
 
 
+
+
 #%%
 #Semi-supervised clustering using SentenceTransformer embeddings
 from sklearn.preprocessing import LabelEncoder
@@ -530,6 +536,8 @@ disagreements = comparison_df[comparison_df['Original_Label'] != comparison_df['
 print("\nSample of Disagreements:")
 sample_disagreements = disagreements.join(dataset_raw['Room Description']).sample(5)
 print(sample_disagreements)
+
+
 
 
 #%%
@@ -632,6 +640,11 @@ def analyze_category_terms(descriptions, labels, category):
 # Analyze terms for each major category
 for category in pd.Series(simplified_labels).unique():
     analyze_category_terms(dataset_raw['Room Description'], simplified_labels, category)
+
+
+
+
+
 
 #%% ##### FUZZY MATCHING #####
 def fuzzy_extract_attributes(descriptions, attribute_lists, threshold=80):
