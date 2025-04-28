@@ -1,6 +1,13 @@
 import streamlit as st
+import pandas as pd
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+# 0) Adjust these paths / column names to match your setup
+DATA_PATH          = "../Data/Product_Normalization_GRI_Expanded.csv"
+TEXT_COL           = "Room Description Expanded"
+TRUE_LABEL_COL     = "Guest Room Info"
+MODEL_PATH         = "final_bert_base_uncased"
 
 # 1) Page config & header
 st.set_page_config(
@@ -16,22 +23,29 @@ st.markdown("""
     <hr>
 """, unsafe_allow_html=True)
 
-# 2) Loading the fine‑tuned BERT model & tokenizer (cached so it only happens once)
+# 2) Load dataset (cached)
+@st.cache_data
+def load_data(path):
+    return pd.read_csv(path, dtype=str)
+
+df = load_data(DATA_PATH)
+
+# 3) Load the fine-tuned BERT model & tokenizer (cached)
 @st.cache_resource
-def load_model(path="final_bert_base_uncased"):
+def load_model(path):
     tokenizer = AutoTokenizer.from_pretrained(path)
-    model = AutoModelForSequenceClassification.from_pretrained(path)
+    model     = AutoModelForSequenceClassification.from_pretrained(path)
     model.eval()
     return model, tokenizer
 
-model, tokenizer = load_model("final_bert_base_uncased")
+model, tokenizer = load_model(MODEL_PATH)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-# 3) Grab the id2label mapping from the model’s config
-id2label = {int(k):v for k,v in model.config.id2label.items()}
+# 4) Grab the id2label mapping from the model’s config
+id2label = {int(k): v for k, v in model.config.id2label.items()}
 
-# 4) Define a helper to run inference
+# 5) Inference helper
 def predict_room_type(text: str) -> str:
     inputs = tokenizer(
         text,
@@ -40,13 +54,13 @@ def predict_room_type(text: str) -> str:
         max_length=128,
         return_tensors="pt"
     )
-    inputs = {k: v.to(device) for k,v in inputs.items()}
+    inputs = {k: v.to(device) for k, v in inputs.items()}
     with torch.no_grad():
         logits = model(**inputs).logits
     pred_id = int(logits.argmax(-1))
     return id2label[pred_id]
 
-# 5) Input form
+# 6) Input form
 with st.form("description_form"):
     hotel_description = st.text_area(
         "📝 Room Description",
@@ -55,16 +69,28 @@ with st.form("description_form"):
     )
     submitted = st.form_submit_button("Classify")
 
-# 6) On submit, run your model and display the result
+# 7) On submit, run your model & lookup actual label
 if submitted:
     if not hotel_description.strip():
         st.warning("Please enter a valid description.")
     else:
-        room_type = predict_room_type(hotel_description)
-        st.markdown("### 🛏️ Extracted Room Type:")
-        st.success(room_type)
+        # Model prediction
+        room_type_pred = predict_room_type(hotel_description)
+        st.markdown("### 🛏️ Predicted Room Type:")
+        st.success(room_type_pred)
 
-# 7) Footer
+        # Lookup actual label in your DataFrame
+        matches = df[df[TEXT_COL] == hotel_description]
+        if len(matches) == 1:
+            actual_label = matches.iloc[0][TRUE_LABEL_COL]
+            st.markdown("### ✅ Actual Room Type:")
+            st.info(actual_label)
+        elif len(matches) > 1:
+            st.warning("Multiple matching entries found in dataset.")
+        else:
+            st.warning("No exact match found in dataset for this description.")
+
+# 8) Footer
 st.markdown("""
     <hr>
     <p style='text-align: center; font-size: 14px;'>
