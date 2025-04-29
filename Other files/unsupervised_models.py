@@ -11,6 +11,8 @@ import plotly.graph_objects as go
 from sklearn.manifold import TSNE
 import re
 from sklearn.metrics import v_measure_score, adjusted_rand_score
+from scipy.optimize import linear_sum_assignment
+from collections import defaultdict
 
 def preprocess_for_topic_modeling(text):
     """Clean and preprocess text for topic modeling"""
@@ -286,6 +288,61 @@ def visualize_tfidf_results(results, dataset_raw):
     plot_tsne(results['lda_output'], lda_dominant_topics, 'LDA Topics t-SNE')
     
     return dataset_raw
+
+def calculate_clustering_accuracy(embeddings, true_labels, n_clusters=35):
+    """
+    Calculate clustering accuracy by finding the best mapping between clusters and labels.
+    
+    Args:
+        embeddings: The embeddings from MiniLM
+        true_labels: Ground truth labels (Guest Room Info)
+        n_clusters: Number of clusters to use
+        
+    Returns:
+        Dictionary containing accuracy metrics
+    """
+    # Perform K-means clustering on embeddings
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    predicted_labels = kmeans.fit_predict(embeddings)
+    
+    # Create a contingency matrix
+    contingency_matrix = np.zeros((n_clusters, len(np.unique(true_labels))))
+    for i in range(len(true_labels)):
+        contingency_matrix[predicted_labels[i], true_labels[i]] += 1
+    
+    # Find the best mapping between clusters and true labels
+    row_ind, col_ind = linear_sum_assignment(-contingency_matrix)
+    
+    # Calculate accuracy
+    correct = 0
+    for i in range(len(predicted_labels)):
+        if col_ind[predicted_labels[i]] == true_labels[i]:
+            correct += 1
+    accuracy = correct / len(predicted_labels)
+    
+    return {
+        'accuracy': accuracy,
+        'mapping': dict(zip(row_ind, col_ind))  # Shows which cluster maps to which true label
+    }
+
+def calculate_purity(true_labels, predicted_clusters):
+    """
+    Calculate the purity score for clustering.
+    
+    Args:
+        true_labels: Ground truth labels
+        predicted_clusters: Predicted cluster assignments
+        
+    Returns:
+        Purity score between 0 and 1
+    """
+    contingency = defaultdict(lambda: defaultdict(int))
+    for true, pred in zip(true_labels, predicted_clusters):
+        contingency[pred][true] += 1
+    
+    total_samples = len(true_labels)
+    purity = sum(max(cluster.values()) for cluster in contingency.values()) / total_samples
+    return purity
 
 # Example usage:
 if __name__ == "__main__":
