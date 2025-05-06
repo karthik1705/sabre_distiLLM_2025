@@ -1,0 +1,2441 @@
+,Unnamed: 0,Room Description,Guest Room Info,Room Description Expanded,gemini_roomtype_result,pred_text,match,gemini_otherattr_result,attrs,roomType,bedType,ratePlanInclusives,roomAmenities,mealPlan,roomView,taxesAndFees
+13134,13134,VIRTUOSO 1BRM OCN VW POOL|ONE BEDROOM VILLA W/ BALCONY   PLUNGE POOL,Villa,VIRTUOSO 1BRM OCEAN VIEW POOL|ONE BEDROOM VILLA WITH/ BALCONY   PLUNGE POOL,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Villa,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.16817479474203928
+}
+usage_metadata {
+  prompt_token_count: 348
+  candidates_token_count: 7
+  total_token_count: 355
+}
+model_version: ""gemini-1.5-flash-002""
+",Villa,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Villa\"",\n  \""bedType\"": \""Unknown\"",\n  \""ratePlanInclusives\"": [\n    \""Ocean view\"",\n    \""Pool\""\n  ],\n  \""roomAmenities\"": [\n    \""Balcony\"",\n    \""Plunge pool\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Ocean view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.132964358
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.237930074
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0747700408
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.180106699
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.119203046
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.189521432
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0953494832
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.225417078
+  }
+  avg_logprobs: -0.017176828338104546
+}
+usage_metadata {
+  prompt_token_count: 4298
+  candidates_token_count: 103
+  total_token_count: 4401
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Villa', 'bedType': 'Unknown', 'ratePlanInclusives': 'Ocean view, Pool', 'roomAmenities': 'Balcony, Plunge pool', 'mealPlan': 'Unknown', 'roomView': 'Ocean view', 'taxesAndFees': 'Unknown'}",Villa,Unknown,"Ocean view, Pool","Balcony, Plunge pool",Unknown,Ocean view,Unknown
+7794,7794,BRITISH TELECOMMUNI-NEGOTIATED|TWIN ROOM WITH 2 BEDS,Twin Room,BRITISH TELECOMMUNI-NEGOTIATED|TWIN ROOM WITH 2 BEDS,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Twin Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.117018923163414
+}
+usage_metadata {
+  prompt_token_count: 343
+  candidates_token_count: 8
+  total_token_count: 351
+}
+model_version: ""gemini-1.5-flash-002""
+",Twin Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Twin Room\"",\n  \""bedType\"": [\""Twin/Single Bed\""],\n  \""ratePlanInclusives\"": [\""Unknown\""],\n  \""roomAmenities\"": [\""Unknown\""],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0803574324
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.155078605
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0302146785
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.0994701385
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0534033142
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.140336365
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0815197825
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.169955954
+  }
+  avg_logprobs: -0.0070200102238715447
+}
+usage_metadata {
+  prompt_token_count: 4293
+  candidates_token_count: 79
+  total_token_count: 4372
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Twin Room', 'bedType': 'Twin/Single Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': 'Unknown', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Twin Room,Twin/Single Bed,Unknown,Unknown,Unknown,Unknown,Unknown
+25853,25853,SEATTLE SPA ESCAPE|PRESIDENTIAL SUITE KING-10TH FLOOR-FREE WIFI,Presidential Suite,SEATTLE SPA ESCAPE|PRESIDENTIAL SUITE KING-10TH FLOOR-FREE WIFI,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Presidential Suite,1.0\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.003364591992327145
+}
+usage_metadata {
+  prompt_token_count: 342
+  candidates_token_count: 7
+  total_token_count: 349
+}
+model_version: ""gemini-1.5-flash-002""
+",Presidential Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Presidential Suite\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Free WIFI\""\n  ],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0967059061
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.218669638
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.046725072
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.138462037
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0769609585
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.208179012
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0803574324
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.154057771
+  }
+  avg_logprobs: -0.0013480711637473687
+}
+usage_metadata {
+  prompt_token_count: 4292
+  candidates_token_count: 82
+  total_token_count: 4374
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Presidential Suite', 'bedType': 'King Bed', 'ratePlanInclusives': 'Free WIFI', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Presidential Suite,King Bed,Free WIFI,,Unknown,Unknown,Unknown
+23704,23704,"MRATE AVAIL SAVOR, THE FRENCH|LUXURY ROOM, 1 KING SIZE BED OR 2 SINGLE SIZE B EDS, SQUARE OR GARDEN VIEW",Luxury Room,"MRATE AVAIL SAVOR, THE FRENCH|LUXURY ROOM, 1 KING SIZE BED OR 2 SINGLE SIZE B EDS, SQUARE OR GARDEN VIEW","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Luxury Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0026426259428262711
+}
+usage_metadata {
+  prompt_token_count: 356
+  candidates_token_count: 8
+  total_token_count: 364
+}
+model_version: ""gemini-1.5-flash-002""
+",Luxury Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Luxury Room\"",\n  \""bedType\"": [\""King Bed\"", \""Single Bed\""],\n  \""ratePlanInclusives\"": [\""Unknown\""],\n  \""roomAmenities\"": [\""Unknown\""],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": [\""Garden view\"", \""Square View\""],\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0900932476
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.180106699
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0414622091
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.114368707
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.060086742
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.148047015
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.071591273
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.130285501
+  }
+  avg_logprobs: -0.015746385552162349
+}
+usage_metadata {
+  prompt_token_count: 4306
+  candidates_token_count: 86
+  total_token_count: 4392
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Luxury Room', 'bedType': 'King Bed, Single Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': 'Unknown', 'mealPlan': 'Unknown', 'roomView': 'Garden view, Square View', 'taxesAndFees': 'Unknown'}",Luxury Room,"King Bed, Single Bed",Unknown,Unknown,Unknown,"Garden view, Square View",Unknown
+19681,19681,CELEBRATE IN CHARLESTON|CLUB PREMIER ROOM-1KING-TOP FLOOR CITY VIEWS SITTING AREA-CLUB BENEFITS-COMP WIFI-400SQFT,Premier Room,CELEBRATE IN CHARLESTON|CLUB PREMIER ROOM-1KING-TOP FLOOR CITY VIEWS SITTING AREA-CLUB BENEFITS-COMP WIFI-400SQFT,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Premier Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.00084462936501950026
+}
+usage_metadata {
+  prompt_token_count: 358
+  candidates_token_count: 8
+  total_token_count: 366
+}
+model_version: ""gemini-1.5-flash-002""
+",Premier Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Premier Room\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Complimentary wireless internet\""\n  ],\n  \""roomAmenities\"": [\n    \""Sitting area\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""City view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.103748769
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.224055812
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0488576852
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.136608809
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0913820341
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.17106095
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0792102143
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.187132955
+  }
+  avg_logprobs: -0.0056143840576740019
+}
+usage_metadata {
+  prompt_token_count: 4308
+  candidates_token_count: 94
+  total_token_count: 4402
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Premier Room', 'bedType': 'King Bed', 'ratePlanInclusives': 'Complimentary wireless internet', 'roomAmenities': 'Sitting area', 'mealPlan': 'Unknown', 'roomView': 'City view', 'taxesAndFees': 'Unknown'}",Premier Room,King Bed,Complimentary wireless internet,Sitting area,Unknown,City view,Unknown
+17711,17711,UPFRONT SAVINGS|DELUXE CITY ROOM-30-34 SQM-TWIN-CITY VIEW,Deluxe Room,UPFRONT SAVINGS|DELUXE CITY ROOM-30-34 SQM-TWIN-CITY VIEW,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Deluxe Room,0.9\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.23978894097464426
+}
+usage_metadata {
+  prompt_token_count: 348
+  candidates_token_count: 7
+  total_token_count: 355
+}
+model_version: ""gemini-1.5-flash-002""
+",Deluxe Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Twin Room\"",\n  \""bedType\"": \""Twin/Single Bed\"",\n  \""ratePlanInclusives\"": [\n    \""City view\""\n  ],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""City view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0838904828
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.198064268
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0402380042
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.117572024
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0726368427
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.156104967
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.100878537
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.187132955
+  }
+  avg_logprobs: -0.0036347950206083411
+}
+usage_metadata {
+  prompt_token_count: 4298
+  candidates_token_count: 85
+  total_token_count: 4383
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Twin Room', 'bedType': 'Twin/Single Bed', 'ratePlanInclusives': 'City view', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'City view', 'taxesAndFees': 'Unknown'}",Twin Room,Twin/Single Bed,City view,,Unknown,City view,Unknown
+19055,19055,"TRIPADVISOR PLUS|1 KING BED DELUXE SUITE NSMK WITH SOFABED, FREE CONTINENTAL BREAKFAST, JACUCCI AND FIREPLACE",Deluxe Suite,"TRIPADVISOR PLUS|1 KING BED DELUXE SUITE NON SMOKING WITH SOFABED, FREE CONTINENTAL BREAKFAST, JACUCCI AND FIREPLACE","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Deluxe Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0007487201364710927
+}
+usage_metadata {
+  prompt_token_count: 358
+  candidates_token_count: 8
+  total_token_count: 366
+}
+model_version: ""gemini-1.5-flash-002""
+",Deluxe Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Deluxe Suite\"",\n  \""bedType\"": [\""King Bed\"", \""Sofa Bed\""],\n  \""ratePlanInclusives\"": [\n    \""Complimentary continental breakfast\""\n  ],\n  \""roomAmenities\"": [\n    \""Jacuzzi\"",\n    \""Fireplace\""\n  ],\n  \""mealPlan\"": \""Continental Breakfast\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0913820341
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.210766181
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0414622091
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.130285501
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0609752387
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.173288032
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0685376
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.151027903
+  }
+  avg_logprobs: -0.0095473877512491662
+}
+usage_metadata {
+  prompt_token_count: 4308
+  candidates_token_count: 104
+  total_token_count: 4412
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Deluxe Suite', 'bedType': 'King Bed, Sofa Bed', 'ratePlanInclusives': 'Complimentary continental breakfast', 'roomAmenities': 'Jacuzzi, Fireplace', 'mealPlan': 'Continental Breakfast', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Deluxe Suite,"King Bed, Sofa Bed",Complimentary continental breakfast,"Jacuzzi, Fireplace",Continental Breakfast,Unknown,Unknown
+5346,5346,GO EXPLORE|QUEEN ROOM FREE WI-FI/HOT BREAKFAST INCLUDED/HDTV/SAFE,Queen Bedroom,GO EXPLORE|QUEEN ROOM FREE WI-FI/HOT BREAKFAST INCLUDED/HDTV/SAFE,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Queen Bedroom,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0013808619696646929
+}
+usage_metadata {
+  prompt_token_count: 345
+  candidates_token_count: 8
+  total_token_count: 353
+}
+model_version: ""gemini-1.5-flash-002""
+",Queen Bedroom,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Queen Bedroom\"",\n  \""bedType\"": \""Queen Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Free WIFI\"",\n    \""Hot Breakfast\""\n  ],\n  \""roomAmenities\"": [\n    \""Wireless internet connection\"",\n    \""High Definition (HD) Flat Panel Television - 32 inches or greater\""\n  ],\n  \""mealPlan\"": \""Breakfast\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.106690697
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.201813355
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0550053902
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.162380099
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0736965165
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.127652913
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.117572024
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.225417078
+  }
+  avg_logprobs: -0.008891244219918536
+}
+usage_metadata {
+  prompt_token_count: 4295
+  candidates_token_count: 117
+  total_token_count: 4412
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Queen Bedroom', 'bedType': 'Queen Bed', 'ratePlanInclusives': 'Free WIFI, Hot Breakfast', 'roomAmenities': 'Wireless internet connection, High Definition (HD) Flat Panel Television - 32 inches or greater', 'mealPlan': 'Breakfast', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Queen Bedroom,Queen Bed,"Free WIFI, Hot Breakfast","Wireless internet connection, High Definition (HD) Flat Panel Television - 32 inches or greater",Breakfast,Unknown,Unknown
+26534,26534,DBB RATE|SINGLE ROOM ENSUITE WIFI TV PARKING RIVERVIEW RESTAURANT AND BAR,Single Room,DBB RATE|SINGLE ROOM ENSUITE WIFI TV PARKING RIVERVIEW RESTAURANT AND BAR,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Single Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0010817204602062702
+}
+usage_metadata {
+  prompt_token_count: 342
+  candidates_token_count: 8
+  total_token_count: 350
+}
+model_version: ""gemini-1.5-flash-002""
+",Single Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Single Room\"",\n  \""bedType\"": \""Single Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Wireless internet connection\"",\n    \""Parking\"",\n    \""TV\""\n  ],\n  \""roomAmenities\"": [\n    \""Wireless internet connection\"",\n    \""TV\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""River view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.111241356
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.20689407
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0665691793
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.180106699
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.100878537
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.149035275
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.103748769
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.213377446
+  }
+  avg_logprobs: -0.011532990210646884
+}
+usage_metadata {
+  prompt_token_count: 4292
+  candidates_token_count: 109
+  total_token_count: 4401
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Single Room', 'bedType': 'Single Bed', 'ratePlanInclusives': 'Wireless internet connection, Parking, TV', 'roomAmenities': 'Wireless internet connection, TV', 'mealPlan': 'Unknown', 'roomView': 'River view', 'taxesAndFees': 'Unknown'}",Single Room,Single Bed,"Wireless internet connection, Parking, TV","Wireless internet connection, TV",Unknown,River view,Unknown
+27887,27887,2X POINTS PACKAGE|CABANA OCEANFRNT 2 QUEENS MOBILITY ACCESS TUB 35 USD RESORT CHARGE -MOB ACC TUB -STEAMER,Cabana,2X POINTS PACKAGE|CABANA OCEANFRNT 2 QUEENS MOBILITY ACCESSIBLE TUB 35 USD RESORT CHARGE -MOB ACC TUB -STEAMER,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Cabana,0.9\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.40011484282357351
+}
+usage_metadata {
+  prompt_token_count: 359
+  candidates_token_count: 7
+  total_token_count: 366
+}
+model_version: ""gemini-1.5-flash-002""
+",Cabana,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Cabana\"",\n  \""bedType\"": [\""Queen Bed\""],\n  \""ratePlanInclusives\"": [\n    \""Accessible Facilities\"",\n    \""Steam Bath\""\n  ],\n  \""roomAmenities\"": [\n    \""Accessible Facilities\"",\n    \""Steam Bath\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Ocean view\"",\n  \""taxesAndFees\"": \""Resort fee\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.130285501
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.1847675
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0592103265
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.147064269
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.086323753
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.168856651
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0780783668
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.203074887
+  }
+  avg_logprobs: -0.0055534130051022486
+}
+usage_metadata {
+  prompt_token_count: 4309
+  candidates_token_count: 105
+  total_token_count: 4414
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Cabana', 'bedType': 'Queen Bed', 'ratePlanInclusives': 'Accessible Facilities, Steam Bath', 'roomAmenities': 'Accessible Facilities, Steam Bath', 'mealPlan': 'Unknown', 'roomView': 'Ocean view', 'taxesAndFees': 'Resort fee'}",Cabana,Queen Bed,"Accessible Facilities, Steam Bath","Accessible Facilities, Steam Bath",Unknown,Ocean view,Resort fee
+11827,11827,AVALON EXPERIENCE|TWO BDRM BUNGALOW-700-725 SQ FT1 KING AND 1 QUEEN BED LIVING ROOM-PATIO- KITCHEN,Bungalow,AVALON EXPERIENCE|TWO BEDROOM BUNGALOW-700-725 SQ FT1 KING AND 1 QUEEN BED LIVING ROOM-PATIO- KITCHEN,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Bungalow,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.01017202902585268
+}
+usage_metadata {
+  prompt_token_count: 360
+  candidates_token_count: 8
+  total_token_count: 368
+}
+model_version: ""gemini-1.5-flash-002""
+",Bungalow,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Bungalow\"",\n  \""bedType\"": [\""King Bed\"", \""Queen Bed\""],\n  \""ratePlanInclusives\"": [\""Kitchen\""],\n  \""roomAmenities\"": [\""Kitchen\""],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.09401007
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.195593983
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.039048329
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.114368707
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0637151301
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.185947239
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0574932285
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.136608809
+  }
+  avg_logprobs: -0.039318334909132967
+}
+usage_metadata {
+  prompt_token_count: 4310
+  candidates_token_count: 81
+  total_token_count: 4391
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Bungalow', 'bedType': 'King Bed, Queen Bed', 'ratePlanInclusives': 'Kitchen', 'roomAmenities': 'Kitchen', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Bungalow,"King Bed, Queen Bed",Kitchen,Kitchen,Unknown,Unknown,Unknown
+1530,1530,SPECIAL 50PCT OFF SALE|OCEAN FRONT SUITE DOUBLE .2 QUEEN.,Suite,SPECIAL 50PCT OFF SALE|OCEAN FRONT SUITE DOUBLE .2 QUEEN.,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Suite,0.8\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.013926570614178976
+}
+usage_metadata {
+  prompt_token_count: 342
+  candidates_token_count: 6
+  total_token_count: 348
+}
+model_version: ""gemini-1.5-flash-002""
+",Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Suite\"",\n  \""bedType\"": [\""Queen Bed\""],\n  \""ratePlanInclusives\"": [],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Ocean view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.102304742
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.187132955
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0367695056
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.106690697
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0705596507
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.189521432
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0685376
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.159217864
+  }
+  avg_logprobs: -0.0061539521772567543
+}
+usage_metadata {
+  prompt_token_count: 4292
+  candidates_token_count: 73
+  total_token_count: 4365
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Suite', 'bedType': 'Queen Bed', 'ratePlanInclusives': '', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'Ocean view', 'taxesAndFees': 'Unknown'}",Suite,Queen Bed,,,Unknown,Ocean view,Unknown
+1318,1318,BEST AVAILABLE RATE|AMBASSADOR SUITE-PARK VIEW-1 KING- WIFI-SEPARATE SITTING AREA-MINIBAR,Suite,BEST AVAILABLE RATE|AMBASSADOR SUITE-PARK VIEW-1 KING- WIFI-SEPARATE SITTING AREA-MINIBAR,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.011110495243753706
+}
+usage_metadata {
+  prompt_token_count: 352
+  candidates_token_count: 7
+  total_token_count: 359
+}
+model_version: ""gemini-1.5-flash-002""
+",Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Suite\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Wireless internet connection\"",\n    \""Minibar\""\n  ],\n  \""roomAmenities\"": [\n    \""Wireless internet connection\"",\n    \""Sitting area\"",\n    \""Minibar\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Park view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.127652913
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.22953552
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0665691793
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.158174783
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0980794281
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.19193311
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0900932476
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.20689407
+  }
+  avg_logprobs: -0.0055504199620839715
+}
+usage_metadata {
+  prompt_token_count: 4302
+  candidates_token_count: 111
+  total_token_count: 4413
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Suite', 'bedType': 'King Bed', 'ratePlanInclusives': 'Wireless internet connection, Minibar', 'roomAmenities': 'Wireless internet connection, Sitting area, Minibar', 'mealPlan': 'Unknown', 'roomView': 'Park view', 'taxesAndFees': 'Unknown'}",Suite,King Bed,"Wireless internet connection, Minibar","Wireless internet connection, Sitting area, Minibar",Unknown,Park view,Unknown
+428,428,SEMI-FLEX|1 KING MOBILITY ACCESSIBLE W/ BATHTUB NO SMOK SWEET DREAMS EXPERIENCE BED,Accessible Room,SEMI-FLEX|1 KING MOBILITY ACCESSIBLE WITH/ BATHTUB NO SMOK SWEET DREAMS EXPERIENCE BED,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Accessible Room,0.9\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.084606213229043145
+}
+usage_metadata {
+  prompt_token_count: 348
+  candidates_token_count: 7
+  total_token_count: 355
+}
+model_version: ""gemini-1.5-flash-002""
+",Accessible Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Accessible Room\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Bathtub\""\n  ],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.103748769
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.19930841
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.043365851
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.128525272
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0675468594
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.172171667
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0637151301
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.148047015
+  }
+  avg_logprobs: -0.0014897332322306748
+}
+usage_metadata {
+  prompt_token_count: 4298
+  candidates_token_count: 82
+  total_token_count: 4380
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Accessible Room', 'bedType': 'King Bed', 'ratePlanInclusives': 'Bathtub', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Accessible Room,King Bed,Bathtub,,Unknown,Unknown,Unknown
+30040,30040,"FLASH SALE|1 KING 1BR LUXURY SUITE NORTH TOWER NSMK WITH 685 SQ FT, FREE WIFI, HOT TUB, SOFA BED",Luxury Suite,"FLASH SALE|1 KING 1BR LUXURY SUITE NORTH TOWER NON SMOKING WITH 685 SQ FT, FREE WIFI, HOT TUB, SOFA BED","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Luxury Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.00088889332255348563
+}
+usage_metadata {
+  prompt_token_count: 358
+  candidates_token_count: 8
+  total_token_count: 366
+}
+model_version: ""gemini-1.5-flash-002""
+",Luxury Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Luxury Suite\"",\n  \""bedType\"": [\""King Bed\"", \""Sofa Bed\""],\n  \""ratePlanInclusives\"": [\n    \""Free WIFI\"",\n    \""Hot Tub\""\n  ],\n  \""roomAmenities\"": [\n    \""Wireless internet connection\"",\n    \""Hot Tub\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.112795524
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.19193311
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.060086742
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.143187895
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0850991607
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.158174783
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0850991607
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.193147466
+  }
+  avg_logprobs: -0.0026945521434148154
+}
+usage_metadata {
+  prompt_token_count: 4308
+  candidates_token_count: 108
+  total_token_count: 4416
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Luxury Suite', 'bedType': 'King Bed, Sofa Bed', 'ratePlanInclusives': 'Free WIFI, Hot Tub', 'roomAmenities': 'Wireless internet connection, Hot Tub', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Luxury Suite,"King Bed, Sofa Bed","Free WIFI, Hot Tub","Wireless internet connection, Hot Tub",Unknown,Unknown,Unknown
+29875,29875,ADVANCE PURCHASE BREAKFAST|LUXURY SUITE SEAVIEW-1K-AC-WIFI-ENSUITE-LCDTV- SAFE-KRUPSCOFFEE-KITCHENETTE-SEAVIEW-MAXOCC2,Luxury Suite,ADVANCE PURCHASE BREAKFAST|LUXURY SUITE SEAVIEW-1K-AC-WIFI-ENSUITE-LCDTV- SAFE-KRUPSCOFFEE-KITCHENETTE-SEAVIEW-MAXOCC2,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Luxury Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0012152439448982477
+}
+usage_metadata {
+  prompt_token_count: 369
+  candidates_token_count: 8
+  total_token_count: 377
+}
+model_version: ""gemini-1.5-flash-002""
+",Luxury Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Luxury Suite\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Air conditioning\"",\n    \""Wireless internet connection\"",\n    \""Kitchenette\"",\n    \""Complimentary in-room coffee or tea\""\n  ],\n  \""roomAmenities\"": [\n    \""Air conditioning\"",\n    \""Wireless internet connection\"",\n    \""Kitchenette\"",\n    \""In Room Safe\"",\n    \""LCDTV\""\n  ],\n  \""mealPlan\"": \""Breakfast\"",\n  \""roomView\"": \""Sea view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.119203046
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.161320254
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0474259891
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.143187895
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0627891719
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.132066235
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.108188882
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.163445756
+  }
+  avg_logprobs: -0.0058294213735140283
+}
+usage_metadata {
+  prompt_token_count: 4319
+  candidates_token_count: 143
+  total_token_count: 4462
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Luxury Suite', 'bedType': 'King Bed', 'ratePlanInclusives': 'Air conditioning, Wireless internet connection, Kitchenette, Complimentary in-room coffee or tea', 'roomAmenities': 'Air conditioning, Wireless internet connection, Kitchenette, In Room Safe, LCDTV', 'mealPlan': 'Breakfast', 'roomView': 'Sea view', 'taxesAndFees': 'Unknown'}",Luxury Suite,King Bed,"Air conditioning, Wireless internet connection, Kitchenette, Complimentary in-room coffee or tea","Air conditioning, Wireless internet connection, Kitchenette, In Room Safe, LCDTV",Breakfast,Sea view,Unknown
+30501,30501,"AAA AUTO ASSOCIATION|AAA CAA RATE, MEMBERSHIP CARD REQUIRED, LUXURY SUITE, 1 BEDROOM LARGER SUITE, 1 KING, SOFA BED",Luxury Suite,"AAA AUTO ASSOCIATION|AAA CAA RATE, MEMBERSHIP CARD REQUIRED, LUXURY SUITE, 1 BEDROOM LARGER SUITE, 1 KING, SOFA BED","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Luxury Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.12081675976514816
+}
+usage_metadata {
+  prompt_token_count: 355
+  candidates_token_count: 8
+  total_token_count: 363
+}
+model_version: ""gemini-1.5-flash-002""
+",Luxury Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Luxury Suite\"",\n  \""bedType\"": [\""King Bed\"", \""Sofa Bed\""],\n  \""ratePlanInclusives\"": [\""Unknown\""],\n  \""roomAmenities\"": [\""Unknown\""],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0850991607
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.175538197
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0367695056
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.109705783
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0583459213
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.175538197
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0646535307
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.119203046
+  }
+  avg_logprobs: -0.035028846175582322
+}
+usage_metadata {
+  prompt_token_count: 4305
+  candidates_token_count: 81
+  total_token_count: 4386
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Luxury Suite', 'bedType': 'King Bed, Sofa Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': 'Unknown', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Luxury Suite,"King Bed, Sofa Bed",Unknown,Unknown,Unknown,Unknown,Unknown
+1912,1912,BEST AVAILABLE RATE|WHITEHALL SUITE-1 SUPER KING-CITY VIEW-1.5BATH TV OVER BATH-SEP SHOWER-COMP WIFI-LEDTV-86SQM,Suite,BEST AVAILABLE RATE|WHITEHALL SUITE-1 SUPER KING-CITY VIEW-1.5BATH TV OVER BATH-SEP SHOWER-COMP WIFI-LEDTV-86SQM,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.060901428971971781
+}
+usage_metadata {
+  prompt_token_count: 362
+  candidates_token_count: 7
+  total_token_count: 369
+}
+model_version: ""gemini-1.5-flash-002""
+",Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Suite\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Complimentary wireless internet\""\n  ],\n  \""roomAmenities\"": [\n    \""Separate tub and shower\"",\n    \""LED TV\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""City view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.123365745
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.217337668
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0609752387
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.159217864
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.09401007
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.173288032
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0875639394
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.225417078
+  }
+  avg_logprobs: -0.0029801873877497004
+}
+usage_metadata {
+  prompt_token_count: 4312
+  candidates_token_count: 101
+  total_token_count: 4413
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Suite', 'bedType': 'King Bed', 'ratePlanInclusives': 'Complimentary wireless internet', 'roomAmenities': 'Separate tub and shower, LED TV', 'mealPlan': 'Unknown', 'roomView': 'City view', 'taxesAndFees': 'Unknown'}",Suite,King Bed,Complimentary wireless internet,"Separate tub and shower, LED TV",Unknown,City view,Unknown
+13154,13154,BEST AVAILABLE RATE|KING TWO BEDROOM VILLA 240SQM/DINING-LIVING RM/PLUNGE POOL/BALCONY,Villa,BEST AVAILABLE RATE|KING TWO BEDROOM VILLA 240SQM/DINING-LIVING ROOM/PLUNGE POOL/BALCONY,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Villa,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.027420186570712497
+}
+usage_metadata {
+  prompt_token_count: 353
+  candidates_token_count: 7
+  total_token_count: 360
+}
+model_version: ""gemini-1.5-flash-002""
+",Villa,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Villa\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Plunge pool\"",\n    \""Balcony\""\n  ],\n  \""roomAmenities\"": [\n    \""Balcony\"",\n    \""Dining area\"",\n    \""Living Room\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.131173313
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.235108629
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0574932285
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.148047015
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.103748769
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.193147466
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0900932476
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.212068826
+  }
+  avg_logprobs: -0.0484460787339644
+}
+usage_metadata {
+  prompt_token_count: 4303
+  candidates_token_count: 110
+  total_token_count: 4413
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Villa', 'bedType': 'King Bed', 'ratePlanInclusives': 'Plunge pool, Balcony', 'roomAmenities': 'Balcony, Dining area, Living Room', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Villa,King Bed,"Plunge pool, Balcony","Balcony, Dining area, Living Room",Unknown,Unknown,Unknown
+21173,21173,MRATE AVAIL FLEXIBLE RATE|SUPERIOR ROOM WITH TWIN BEDS,Superior Room,MRATE AVAIL FLEXIBLE RATE|SUPERIOR ROOM WITH TWIN BEDS,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Superior Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0030040908604860306
+}
+usage_metadata {
+  prompt_token_count: 341
+  candidates_token_count: 8
+  total_token_count: 349
+}
+model_version: ""gemini-1.5-flash-002""
+",Superior Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Superior Room\"",\n  \""bedType\"": [\""Twin/Single Bed\""],\n  \""ratePlanInclusives\"": [\""Unknown\""],\n  \""roomAmenities\"": [\""Unknown\""],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.103748769
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.182425365
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0356785394
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.106690697
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0583459213
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.159217864
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0665691793
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.161320254
+  }
+  avg_logprobs: -0.0095252719106553481
+}
+usage_metadata {
+  prompt_token_count: 4291
+  candidates_token_count: 79
+  total_token_count: 4370
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Superior Room', 'bedType': 'Twin/Single Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': 'Unknown', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Superior Room,Twin/Single Bed,Unknown,Unknown,Unknown,Unknown,Unknown
+13634,13634,LUXURY GETAWAY AND VALET|JUNIOR SUITE-NONSM-720 SQFT.1 KING SOFABED. FREE WIFI. 55 INCH TV.  BOSE STEREO.,Junior Suite,LUXURY GETAWAY AND VALET|JUNIOR SUITE-NONSM-720 SQFT.1 KING SOFABED. FREE WIFI. 55 INCH TV.  BOSE STEREO.,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Junior Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.010136911645531654
+}
+usage_metadata {
+  prompt_token_count: 368
+  candidates_token_count: 8
+  total_token_count: 376
+}
+model_version: ""gemini-1.5-flash-002""
+",Junior Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Junior Suite\"",\n  \""bedType\"": [\""King Bed\"", \""Sofa Bed\""],\n  \""ratePlanInclusives\"": [\n    \""Free WIFI\""\n  ],\n  \""roomAmenities\"": [\n    \""55 inch TV\"",\n    \""Bose Stereo\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.120025486
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.194367886
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0534033142
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.131173313
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0913820341
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.176671848
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0815197825
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.194367886
+  }
+  avg_logprobs: -0.0010944632361236128
+}
+usage_metadata {
+  prompt_token_count: 4318
+  candidates_token_count: 103
+  total_token_count: 4421
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Junior Suite', 'bedType': 'King Bed, Sofa Bed', 'ratePlanInclusives': 'Free WIFI', 'roomAmenities': '55 inch TV, Bose Stereo', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Junior Suite,"King Bed, Sofa Bed",Free WIFI,"55 inch TV, Bose Stereo",Unknown,Unknown,Unknown
+10444,10444,15PCT SPECIAL COMMISSION RATE|XL LOFT - 40SQM - 430SQFT5 - DOUBLE BED - WALK-IN CLOSET - DESK - TELEFONE - SLEEPS 2 -,Loft,15PCT SPECIAL COMMISSION RATE|XL LOFT - 40SQM - 430SQFT5 - DOUBLE BED - WALK-IN CLOSET - DESK - TELEFONE - SLEEPS 2 -,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Loft,0.9\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.3380962610244751
+}
+usage_metadata {
+  prompt_token_count: 371
+  candidates_token_count: 6
+  total_token_count: 377
+}
+model_version: ""gemini-1.5-flash-002""
+",Loft,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Loft\"",\n  \""bedType\"": \""Double/Full Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Walk-in closet\"",\n    \""Desk\"",\n    \""Telephone\""\n  ],\n  \""roomAmenities\"": [\n    \""Desk\"",\n    \""Telephone\"",\n    \""Walk-in closet\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.141281515
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.216011539
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0440186746
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.143187895
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0980794281
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.187132955
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0769609585
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.193147466
+  }
+  avg_logprobs: -0.0033512051249372549
+}
+usage_metadata {
+  prompt_token_count: 4321
+  candidates_token_count: 116
+  total_token_count: 4437
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Loft', 'bedType': 'Double/Full Bed', 'ratePlanInclusives': 'Walk-in closet, Desk, Telephone', 'roomAmenities': 'Desk, Telephone, Walk-in closet', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Loft,Double/Full Bed,"Walk-in closet, Desk, Telephone","Desk, Telephone, Walk-in closet",Unknown,Unknown,Unknown
+16536,16536,DISCOUNTED RATE|COMFORT ROOM-19SQM-SINGLE OR DOUBLE-AC-FREE WIFI-TELEPHONE- CABLE-TV 26 INCH-SAFE-MINIBAR,Comfort Room,DISCOUNTED RATE|COMFORT ROOM-19SQM-SINGLE OR DOUBLE-AC-FREE WIFI-TELEPHONE- CABLE-TV 26 INCH-SAFE-MINIBAR,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Comfort Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.00036474282387644053
+}
+usage_metadata {
+  prompt_token_count: 365
+  candidates_token_count: 8
+  total_token_count: 373
+}
+model_version: ""gemini-1.5-flash-002""
+",Comfort Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Comfort Room\"",\n  \""bedType\"": [\""Single Bed\"", \""Double/Full Bed\""],\n  \""ratePlanInclusives\"": [\""Air conditioning\"", \""Wireless internet connection\"", \""Telephone\"", \""Cable television\"", \""In Room Safe\"", \""Minibar\""],\n  \""roomAmenities\"": [\""Air conditioning\"", \""Wireless internet connection\"", \""Telephone\"", \""Cable television\"", \""In Room Safe\"", \""Minibar\""],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0850991607
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.150029
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0384663157
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.111241356
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0705596507
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.132964358
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0656049177
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.172171667
+  }
+  avg_logprobs: -0.011190901591083196
+}
+usage_metadata {
+  prompt_token_count: 4315
+  candidates_token_count: 127
+  total_token_count: 4442
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Comfort Room', 'bedType': 'Single Bed, Double/Full Bed', 'ratePlanInclusives': 'Air conditioning, Wireless internet connection, Telephone, Cable television, In Room Safe, Minibar', 'roomAmenities': 'Air conditioning, Wireless internet connection, Telephone, Cable television, In Room Safe, Minibar', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Comfort Room,"Single Bed, Double/Full Bed","Air conditioning, Wireless internet connection, Telephone, Cable television, In Room Safe, Minibar","Air conditioning, Wireless internet connection, Telephone, Cable television, In Room Safe, Minibar",Unknown,Unknown,Unknown
+4156,4156,CCRA PGHP PROMOTIONAL RATE|LIBERTY KING BED RM 300 SQ FT.,King Bedroom,CCRA PGHP PROMOTIONAL RATE|LIBERTY KING BED ROOM 300 SQ FT.,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""King Bedroom,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0044455593451857567
+}
+usage_metadata {
+  prompt_token_count: 346
+  candidates_token_count: 8
+  total_token_count: 354
+}
+model_version: ""gemini-1.5-flash-002""
+",King Bedroom,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""King Bedroom\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Unknown\""\n  ],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0913820341
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.1847675
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0402380042
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.120853223
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.060086742
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.156104967
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0838904828
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.157137156
+  }
+  avg_logprobs: -0.0019334493963806718
+}
+usage_metadata {
+  prompt_token_count: 4296
+  candidates_token_count: 81
+  total_token_count: 4377
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'King Bedroom', 'bedType': 'King Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",King Bedroom,King Bed,Unknown,,Unknown,Unknown,Unknown
+13166,13166,VILLA - BEST AVAILABLE RATE|6 BEDROOM OCEAN VIEW VILLA * PRIVATE POOL * LIVING ROOM - KITCHEN * FULLY STAFFED,Villa,VILLA - BEST AVAILABLE RATE|6 BEDROOM OCEAN VIEW VILLA * PRIVATE POOL * LIVING ROOM - KITCHEN * FULLY STAFFED,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Villa,1.0\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.048544406890869141
+}
+usage_metadata {
+  prompt_token_count: 349
+  candidates_token_count: 6
+  total_token_count: 355
+}
+model_version: ""gemini-1.5-flash-002""
+",Villa,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\""roomType\"": \""Villa\"", \""bedType\"": [\""King Bed\""], \""ratePlanInclusives\"": [\""Private pool\"", \""Fully staffed\""], \""roomAmenities\"": [\""Private pool\""], \""mealPlan\"": \""Unknown\"", \""roomView\"": \""Ocean view\"", \""taxesAndFees\"": \""Unknown\""}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0875639394
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.185947239
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0534033142
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.182425365
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0675468594
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.181263119
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0850991607
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.134776011
+  }
+  avg_logprobs: -0.054815751133543075
+}
+usage_metadata {
+  prompt_token_count: 4299
+  candidates_token_count: 66
+  total_token_count: 4365
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Villa', 'bedType': 'King Bed', 'ratePlanInclusives': 'Private pool, Fully staffed', 'roomAmenities': 'Private pool', 'mealPlan': 'Unknown', 'roomView': 'Ocean view', 'taxesAndFees': 'Unknown'}",Villa,King Bed,"Private pool, Fully staffed",Private pool,Unknown,Ocean view,Unknown
+27290,27290,"STAY PASS|WORK ANYWHERE STAY PASS, SEE RATE DETAILS, STUDIO, 1 KING",Studio Room,"STAY PASS|WORK ANYWHERE STAY PASS, SEE RATE DETAILS, STUDIO, 1 KING","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Studio,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.026825310928480967
+}
+usage_metadata {
+  prompt_token_count: 343
+  candidates_token_count: 7
+  total_token_count: 350
+}
+model_version: ""gemini-1.5-flash-002""
+",Studio,False,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Studio Room\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Unknown\""\n  ],\n  \""roomAmenities\"": [\n    \""Unknown\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.115960866
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.204342186
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0481366813
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.133867636
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0747700408
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.157137156
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0803574324
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.175538197
+  }
+  avg_logprobs: -0.020893218811978115
+}
+usage_metadata {
+  prompt_token_count: 4293
+  candidates_token_count: 89
+  total_token_count: 4382
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Studio Room', 'bedType': 'King Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': 'Unknown', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Studio Room,King Bed,Unknown,Unknown,Unknown,Unknown,Unknown
+1616,1616,BED  BREAKFAST|RIVER SUITE-SUPER KING-180 DEGREE THAMES VIEWS 1.5BATH-TV OVER BATHTUB-COMP WIFI-LEDTV-80SQM,Suite,BED  BREAKFAST|RIVER SUITE-SUPER KING-180 DEGREE THAMES VIEWS 1.5BATH-TV OVER BATHTUB-COMP WIFI-LEDTV-80SQM,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Suite,0.9\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.032104785243670143
+}
+usage_metadata {
+  prompt_token_count: 366
+  candidates_token_count: 6
+  total_token_count: 372
+}
+model_version: ""gemini-1.5-flash-002""
+",Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Suite\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Complimentary wireless internet\""\n  ],\n  \""roomAmenities\"": [\n    \""Television\"",\n    \""Wireless internet connection\""\n  ],\n  \""mealPlan\"": \""Breakfast\"",\n  \""roomView\"": \""River view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.142232075
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.236516431
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0583459213
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.157137156
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0980794281
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.181263119
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0769609585
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.19930841
+  }
+  avg_logprobs: -0.013667508809253423
+}
+usage_metadata {
+  prompt_token_count: 4316
+  candidates_token_count: 99
+  total_token_count: 4415
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Suite', 'bedType': 'King Bed', 'ratePlanInclusives': 'Complimentary wireless internet', 'roomAmenities': 'Television, Wireless internet connection', 'mealPlan': 'Breakfast', 'roomView': 'River view', 'taxesAndFees': 'Unknown'}",Suite,King Bed,Complimentary wireless internet,"Television, Wireless internet connection",Breakfast,River view,Unknown
+7508,7508,GDS WINTER ESCAPES 2 NIGHT PAC|PREMIUM TWIN ROOM NON ISO HOTEL FREE WIFI SPACIOUS INCLUDES BFAST FOR 2 AND VALET PARKING BOTTLE OF WINE ON ARRIVAL AND LCO 12PM,Twin Room,GDS WINTER ESCAPES 2 NIGHT PAC|PREMIUM TWIN ROOM NON ISO HOTEL FREE WIFI SPACIOUS INCLUDES BFAST FOR 2 AND VALET PARKING BOTTLE OF WINE ON ARRIVAL AND LCO 12PM,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Twin Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.000413601694162935
+}
+usage_metadata {
+  prompt_token_count: 371
+  candidates_token_count: 8
+  total_token_count: 379
+}
+model_version: ""gemini-1.5-flash-002""
+",Twin Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Twin Room\"",\n  \""bedType\"": \""Twin/Single Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Free WIFI\"",\n    \""Breakfast for 2\"",\n    \""Valet Parking\"",\n    \""Bottle of wine on arrival\"",\n    \""Late checkout 12PM\""\n  ],\n  \""roomAmenities\"": [\n    \""Wireless internet connection\""\n  ],\n  \""mealPlan\"": \""Breakfast\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.117572024
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.187132955
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0474259891
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.155078605
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0769609585
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.128525272
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.147064269
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.22953552
+  }
+  avg_logprobs: -0.013506057672202587
+}
+usage_metadata {
+  prompt_token_count: 4321
+  candidates_token_count: 128
+  total_token_count: 4449
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Twin Room', 'bedType': 'Twin/Single Bed', 'ratePlanInclusives': 'Free WIFI, Breakfast for 2, Valet Parking, Bottle of wine on arrival, Late checkout 12PM', 'roomAmenities': 'Wireless internet connection', 'mealPlan': 'Breakfast', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Twin Room,Twin/Single Bed,"Free WIFI, Breakfast for 2, Valet Parking, Bottle of wine on arrival, Late checkout 12PM",Wireless internet connection,Breakfast,Unknown,Unknown
+28069,28069,AMEX PREFERRED FAMILY|CABANA POOLSIDE-POOL VIEW-1 KING BED-350 SQ.FT. DIRECT POOL ACCESS-FLAT SCREEN TV-BATHROBES,Cabana,AMEX PREFERRED FAMILY|CABANA POOLSIDE-POOL VIEW-1 KING BED-350 SQ.FT. DIRECT POOL ACCESSIBLE-FLAT SCREEN TV-BATHROBES,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Cabana,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.010026147589087486
+}
+usage_metadata {
+  prompt_token_count: 362
+  candidates_token_count: 8
+  total_token_count: 370
+}
+model_version: ""gemini-1.5-flash-002""
+",Cabana,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Cabana\"",\n  \""bedType\"": [\""King Bed\""],\n  \""ratePlanInclusives\"": [\""Flat Screen TV\"", \""Bathrobes\""],\n  \""roomAmenities\"": [\""Flat Screen TV\"", \""Bathrobes\""],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Pool view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0913820341
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.187132955
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0481366813
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.119203046
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0627891719
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.163445756
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0803574324
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.176671848
+  }
+  avg_logprobs: -0.012137216991848415
+}
+usage_metadata {
+  prompt_token_count: 4312
+  candidates_token_count: 90
+  total_token_count: 4402
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Cabana', 'bedType': 'King Bed', 'ratePlanInclusives': 'Flat Screen TV, Bathrobes', 'roomAmenities': 'Flat Screen TV, Bathrobes', 'mealPlan': 'Unknown', 'roomView': 'Pool view', 'taxesAndFees': 'Unknown'}",Cabana,King Bed,"Flat Screen TV, Bathrobes","Flat Screen TV, Bathrobes",Unknown,Pool view,Unknown
+21535,21535,BED AND BREAKFAST|SUPERIOR QUEEN-1 QUEEN-FREE WIFI-WALK IN SHOWER-OPENING WINDOW- TEA COFFEE MAKING-DESK-HEATING-,Superior Room,BED AND BREAKFAST|SUPERIOR QUEEN-1 QUEEN-FREE WIFI-WALK IN SHOWER-OPENING WINDOW- TEA COFFEE MAKING-DESK-HEATING-,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Queen Bedroom,0.8\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.013223088213375636
+}
+usage_metadata {
+  prompt_token_count: 357
+  candidates_token_count: 7
+  total_token_count: 364
+}
+model_version: ""gemini-1.5-flash-002""
+",Queen Bedroom,False,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Superior Room\"",\n  \""bedType\"": \""Queen Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Free WIFI\"",\n    \""Complimentary in-room coffee or tea\""\n  ],\n  \""roomAmenities\"": [\n    \""Walk-in shower\"",\n    \""Desk\"",\n    \""Heating\"",\n    \""Ironing board\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.125065371
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.172171667
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.046725072
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.132964358
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0769609585
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.132066235
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.125065371
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.239349887
+  }
+  avg_logprobs: -0.011905074119567871
+}
+usage_metadata {
+  prompt_token_count: 4307
+  candidates_token_count: 122
+  total_token_count: 4429
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Superior Room', 'bedType': 'Queen Bed', 'ratePlanInclusives': 'Free WIFI, Complimentary in-room coffee or tea', 'roomAmenities': 'Walk-in shower, Desk, Heating, Ironing board', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Superior Room,Queen Bed,"Free WIFI, Complimentary in-room coffee or tea","Walk-in shower, Desk, Heating, Ironing board",Unknown,Unknown,Unknown
+1377,1377,"REGULAR RATE|FLEXIBLE RATE, TOWER SUITE, 1 BEDROOM SUITE, 1 KING, SOFA BED, CITY VIEW",Suite,"REGULAR RATE|FLEXIBLE RATE, TOWER SUITE, 1 BEDROOM SUITE, 1 KING, SOFA BED, CITY VIEW","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Tower Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.052458614110946655
+}
+usage_metadata {
+  prompt_token_count: 350
+  candidates_token_count: 8
+  total_token_count: 358
+}
+model_version: ""gemini-1.5-flash-002""
+",Tower Suite,False,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Suite\"",\n  \""bedType\"": [\""King Bed\"", \""Sofa Bed\""],\n  \""ratePlanInclusives\"": [\""Flexible Rate\""],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""City view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0888204128
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.200557858
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0367695056
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.115960866
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0815197825
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.204342186
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.060086742
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.127652913
+  }
+  avg_logprobs: -0.0041772305965423586
+}
+usage_metadata {
+  prompt_token_count: 4300
+  candidates_token_count: 80
+  total_token_count: 4380
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Suite', 'bedType': 'King Bed, Sofa Bed', 'ratePlanInclusives': 'Flexible Rate', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'City view', 'taxesAndFees': 'Unknown'}",Suite,"King Bed, Sofa Bed",Flexible Rate,,Unknown,City view,Unknown
+10509,10509,"AAA AMERICAN AUTO ASSN|AAA CAA RATE, MEMBERSHIP CARD REQUIRED, DEPOSIT REQUIRED, ONE BEDROOM - LOFT, SUITE",Loft,"AAA AMERICAN AUTO ASSN|AAA CAA RATE, MEMBERSHIP CARD REQUIRED, DEPOSIT REQUIRED, ONE BEDROOM - LOFT, SUITE","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Loft,0.8\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.089005827903747559
+}
+usage_metadata {
+  prompt_token_count: 349
+  candidates_token_count: 6
+  total_token_count: 355
+}
+model_version: ""gemini-1.5-flash-002""
+",Loft,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Loft\"",\n  \""bedType\"": \""Unknown\"",\n  \""ratePlanInclusives\"": [\n    \""Deposit Required\""\n  ],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.117572024
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.224055812
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0427222103
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.130285501
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0815197825
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.182425365
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0656049177
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.141281515
+  }
+  avg_logprobs: -0.0095606066286563866
+}
+usage_metadata {
+  prompt_token_count: 4299
+  candidates_token_count: 80
+  total_token_count: 4379
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Loft', 'bedType': 'Unknown', 'ratePlanInclusives': 'Deposit Required', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Loft,Unknown,Deposit Required,,Unknown,Unknown,Unknown
+22026,22026,INTERNOVA  TRAVEL LEADERS|SUPERIOR SUITE WITH 1 DOUBLE BED,Superior Suite,INTERNOVA  TRAVEL LEADERS|SUPERIOR SUITE WITH 1 DOUBLE BED,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Superior Suite,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.15535381436347961
+}
+usage_metadata {
+  prompt_token_count: 340
+  candidates_token_count: 8
+  total_token_count: 348
+}
+model_version: ""gemini-1.5-flash-002""
+",Superior Suite,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Superior Suite\"",\n  \""bedType\"": \""Double/Full Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Unknown\""\n  ],\n  \""roomAmenities\"": [\n    \""Unknown\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.132964358
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.214691326
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0460338742
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.117572024
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0826974213
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.209469482
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0792102143
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.195593983
+  }
+  avg_logprobs: -0.0026732306559007248
+}
+usage_metadata {
+  prompt_token_count: 4290
+  candidates_token_count: 91
+  total_token_count: 4381
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Superior Suite', 'bedType': 'Double/Full Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': 'Unknown', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Superior Suite,Double/Full Bed,Unknown,Unknown,Unknown,Unknown,Unknown
+21048,21048,FLEXIBLE RATE|SUPERIOR TWIN,Superior Room,FLEXIBLE RATE|SUPERIOR TWIN,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Superior Room,0.8\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.057129923786435811
+}
+usage_metadata {
+  prompt_token_count: 333
+  candidates_token_count: 7
+  total_token_count: 340
+}
+model_version: ""gemini-1.5-flash-002""
+",Superior Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Superior Room\"",\n  \""bedType\"": \""Twin/Single Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Unknown\""\n  ],\n  \""roomAmenities\"": [\n    \""Unknown\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.119203046
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.222700268
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0440186746
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.120025486
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0792102143
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.176671848
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0850991607
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.201813355
+  }
+  avg_logprobs: -0.011290235833807305
+}
+usage_metadata {
+  prompt_token_count: 4283
+  candidates_token_count: 91
+  total_token_count: 4374
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Superior Room', 'bedType': 'Twin/Single Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': 'Unknown', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Superior Room,Twin/Single Bed,Unknown,Unknown,Unknown,Unknown,Unknown
+16327,16327,"BEST FLEXIBLE OFFER - BB -|COMFORT ROOM WITH FRENCH BED, 26 SQM",Comfort Room,"BEST FLEXIBLE OFFER - BB -|COMFORT ROOM WITH FRENCH BED, 26 SQM","candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Comfort Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.00093967263819649816
+}
+usage_metadata {
+  prompt_token_count: 345
+  candidates_token_count: 8
+  total_token_count: 353
+}
+model_version: ""gemini-1.5-flash-002""
+",Comfort Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Comfort Room\"",\n  \""bedType\"": \""Double/Full Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Unknown\""\n  ],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.0953494832
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.19930841
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0362200849
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.103748769
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0618759878
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.182425365
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0838904828
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.155078605
+  }
+  avg_logprobs: -0.0042086864810392081
+}
+usage_metadata {
+  prompt_token_count: 4295
+  candidates_token_count: 83
+  total_token_count: 4378
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Comfort Room', 'bedType': 'Double/Full Bed', 'ratePlanInclusives': 'Unknown', 'roomAmenities': '', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Comfort Room,Double/Full Bed,Unknown,,Unknown,Unknown,Unknown
+3263,3263,ACCENTURE|DOUBLE ROOM - 24SQM - 258SQFT - KING BED - FREE WLAN - AIR CONDITIONING - SAFE - SLEEPS 2,Double Bed,ACCENTURE|DOUBLE ROOM - 24SQM - 258SQFT - KING BED - FREE WLAN - AIR CONDITIONING - SAFE - SLEEPS 2,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Double Room,1.0\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.037788250616618564
+}
+usage_metadata {
+  prompt_token_count: 361
+  candidates_token_count: 7
+  total_token_count: 368
+}
+model_version: ""gemini-1.5-flash-002""
+",Double Room,False,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Double Room\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Air conditioning\"",\n    \""Wireless internet connection\""\n  ],\n  \""roomAmenities\"": [\n    \""Air conditioning\"",\n    \""Wireless internet connection\"",\n    \""Safe\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.120853223
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.203074887
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0558232591
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.138462037
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0953494832
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.156104967
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0685376
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.204342186
+  }
+  avg_logprobs: -0.0062045525420795786
+}
+usage_metadata {
+  prompt_token_count: 4311
+  candidates_token_count: 110
+  total_token_count: 4421
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Double Room', 'bedType': 'King Bed', 'ratePlanInclusives': 'Air conditioning, Wireless internet connection', 'roomAmenities': 'Air conditioning, Wireless internet connection, Safe', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Double Room,King Bed,"Air conditioning, Wireless internet connection","Air conditioning, Wireless internet connection, Safe",Unknown,Unknown,Unknown
+12284,12284,VIRTUOSO|CRESCENT BUNGALOW SUITE-1KING-GARDEN VIEW FIREPLACE-PORCH-COMP WIFI-1180SQFT 110SQM,Bungalow,VIRTUOSO|CRESCENT BUNGALOW SUITE-1KING-GARDEN VIEW FIREPLACE-PORCH-COMP WIFI-1180SQFT 110SQM,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Bungalow,0.9\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.281883920942034
+}
+usage_metadata {
+  prompt_token_count: 365
+  candidates_token_count: 7
+  total_token_count: 372
+}
+model_version: ""gemini-1.5-flash-002""
+",Bungalow,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Suite\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Complimentary wireless internet\""\n  ],\n  \""roomAmenities\"": [\n    \""Fireplace\"",\n    \""Wireless internet connection\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Garden view\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.137532875
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.225417078
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0550053902
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.152032331
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0888204128
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.17106095
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0747700408
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.193147466
+  }
+  avg_logprobs: -0.0077684122323989869
+}
+usage_metadata {
+  prompt_token_count: 4315
+  candidates_token_count: 100
+  total_token_count: 4415
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Suite', 'bedType': 'King Bed', 'ratePlanInclusives': 'Complimentary wireless internet', 'roomAmenities': 'Fireplace, Wireless internet connection', 'mealPlan': 'Unknown', 'roomView': 'Garden view', 'taxesAndFees': 'Unknown'}",Suite,King Bed,Complimentary wireless internet,"Fireplace, Wireless internet connection",Unknown,Garden view,Unknown
+20178,20178,BREAKFAST FOR 2 ADULTS FULL|STANDARD ROOM WHEN YOU ARRIVE AT THE HOTEL WE WILL DO OUR BEST TO MEET YOUR BED TYPE PREFERENCES. THESE ARE SUBJECT TO,Standard Room,BREAKFAST FOR 2 ADULTS FULL|STANDARD ROOM WHEN YOU ARRIVE AT THE HOTEL WE WILL DO OUR BEST TO MEET YOUR BED TYPE PREFERENCES. THESE ARE SUBJECT TO,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""Standard Room,0.95\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -0.0029224525205790997
+}
+usage_metadata {
+  prompt_token_count: 360
+  candidates_token_count: 8
+  total_token_count: 368
+}
+model_version: ""gemini-1.5-flash-002""
+",Standard Room,True,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""Standard Guest Room\"",\n  \""bedType\"": \""Unknown\"",\n  \""ratePlanInclusives\"": [\n    \""Breakfast\""\n  ],\n  \""roomAmenities\"": [],\n  \""mealPlan\"": \""Breakfast\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.119203046
+    severity: HARM_SEVERITY_LOW
+    severity_score: 0.225417078
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0402380042
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.121685848
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0826974213
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.180106699
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0826974213
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.131173313
+  }
+  avg_logprobs: -0.00094673331872916519
+}
+usage_metadata {
+  prompt_token_count: 4310
+  candidates_token_count: 81
+  total_token_count: 4391
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'Standard Guest Room', 'bedType': 'Unknown', 'ratePlanInclusives': 'Breakfast', 'roomAmenities': '', 'mealPlan': 'Breakfast', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",Standard Guest Room,Unknown,Breakfast,,Breakfast,Unknown,Unknown
+14540,14540,LUXURY GETAWAY AND VALET|CLUB KING-NONSM-516 SQFT.1 KING SIZE BED.FREE WIFI. 55-IN TV.BOSE STEREO.INCLUDES CLUB ACCESS,Executive/Club Room,LUXURY GETAWAY AND VALET|CLUB KING-NONSM-516 SQFT.1 KING SIZE BED.FREE WIFI. 55-IN TV.BOSE STEREO.INCLUDES CLUB ACCESSIBLE,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""King Bedroom,0.8\n""
+    }
+  }
+  finish_reason: STOP
+  avg_logprobs: -6.7883765690826946e-05
+}
+usage_metadata {
+  prompt_token_count: 369
+  candidates_token_count: 7
+  total_token_count: 376
+}
+model_version: ""gemini-1.5-flash-002""
+",King Bedroom,False,"candidates {
+  content {
+    role: ""model""
+    parts {
+      text: ""```json\n{\n  \""roomType\"": \""King Bedroom\"",\n  \""bedType\"": \""King Bed\"",\n  \""ratePlanInclusives\"": [\n    \""Free WIFI\"",\n    \""Club Access\""\n  ],\n  \""roomAmenities\"": [\n    \""55-inch TV\"",\n    \""Bose Stereo\""\n  ],\n  \""mealPlan\"": \""Unknown\"",\n  \""roomView\"": \""Unknown\"",\n  \""taxesAndFees\"": \""Unknown\""\n}\n```\n""
+    }
+  }
+  finish_reason: STOP
+  safety_ratings {
+    category: HARM_CATEGORY_HATE_SPEECH
+    probability: NEGLIGIBLE
+    probability_score: 0.120853223
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.19193311
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_DANGEROUS_CONTENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0510828122
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.163445756
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_HARASSMENT
+    probability: NEGLIGIBLE
+    probability_score: 0.0792102143
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.142232075
+  }
+  safety_ratings {
+    category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+    probability: NEGLIGIBLE
+    probability_score: 0.0838904828
+    severity: HARM_SEVERITY_NEGLIGIBLE
+    severity_score: 0.187132955
+  }
+  avg_logprobs: -0.0074639865812265649
+}
+usage_metadata {
+  prompt_token_count: 4319
+  candidates_token_count: 106
+  total_token_count: 4425
+}
+model_version: ""gemini-1.5-flash-002""
+","{'roomType': 'King Bedroom', 'bedType': 'King Bed', 'ratePlanInclusives': 'Free WIFI, Club Access', 'roomAmenities': '55-inch TV, Bose Stereo', 'mealPlan': 'Unknown', 'roomView': 'Unknown', 'taxesAndFees': 'Unknown'}",King Bedroom,King Bed,"Free WIFI, Club Access","55-inch TV, Bose Stereo",Unknown,Unknown,Unknown
+16135,16135,"REGULAR RATE|FLEXIBLE RATE, CLASSIC, GUEST ROOM, 1 KING, HISTORIC WING",Classic Room,"REGULAR RATE|FLEXIBLE RATE, CLASSIC, GUEST ROOM, 1 KING, HISTORIC WING",,,False,,{},,,,,,,
+11448,11448,"AAA WEEKDAY|AAA CAA RATE, MEMBERSHIP CARD REQUIRED, GUEST ROOM, 1 KING",Guest Room,"AAA WEEKDAY|AAA CAA RATE, MEMBERSHIP CARD REQUIRED, GUEST ROOM, 1 KING",,,False,,{},,,,,,,
+30265,30265,MRATE AVAIL FLEXIBLE RATE|THE HOTEL DOES NOT ACCEPT CHECK. LUXURY SUITE WITH 1 DOUBLE BED,Luxury Suite,MRATE AVAIL FLEXIBLE RATE|THE HOTEL DOES NOT ACCEPT CHECK. LUXURY SUITE WITH 1 DOUBLE BED,,,False,,{},,,,,,,
+26175,26175,SAVE 15 PCT OFF PRESIDENTIAL S|PRESIDENTIAL STE: 1 BEDROOM/LIVING RM/KITCHEN,Presidential Suite,SAVE 15 PCT OFF PRESIDENTIAL S|PRESIDENTIAL SUITE: 1 BEDROOM/LIVING ROOM/KITCHEN,,,False,,{},,,,,,,
+26277,26277,WIN|REFURBISHED SUPERIOR SINGLE ROOM WITH AC SINGLE BED FREE HIGH SPEED WIFI FREE WATER WIN INCL BRFKST WIFI GYM 10PCT OFF BAR 10PCT COMM,Single Room,WIN|REFURBISHED SUPERIOR SINGLE ROOM WITH AC SINGLE BED FREE HIGH SPEED WIFI FREE WATER WIN INCL BRFKST WIFI GYM 10PCT OFF BAR 10PCT COMM,,,False,,{},,,,,,,
+18254,18254,"BOOK NOW, PAY LATER|1 KING BED DELUXE SUITE NON SMOKING UNWIND IN OUR COMFORTABLE 65 SQM SUITE WITH MEDIA HUB ERGONOMIC WORK AREA",Deluxe Suite,"BOOK NOW, PAY LATER|1 KING BED DELUXE SUITE NON SMOKING UNWIND IN OUR COMFORTABLE 65 SQM SUITE WITH MEDIA HUB ERGONOMIC WORK AREA",,,False,,{},,,,,,,
+896,896,DINE AND UNWIND|1 KING MOBILITY ACCESSIBLE W/ROLL IN SHOWER COMP WIFI- BED WITH ADJUSTABLE FIRMNESS DIAL,Accessible Room,DINE AND UNWIND|1 KING MOBILITY ACCESSIBLE WITHROLL IN SHOWER COMP WIFI- BED WITH ADJUSTABLE FIRMNESS DIAL,,,False,,{},,,,,,,
+24725,24725,READY.SET.TRAVEL|CLASSIC SUITE  ONE BEDROOM KING    FLOOR 4 610 SQFT 57 SQM   PRIVATE FURNISHED BALCONY,Classic Suite,READY.SET.TRAVEL|CLASSIC SUITE  ONE BEDROOM KING    FLOOR 4 610 SQFT 57 SQM   PRIVATE FURNISHED BALCONY,,,False,,{},,,,,,,
+21880,21880,"CWT|SUPERIOR SUITE ENJOY 1,200 SQ. FT. OF PURE LUXURY OVERLOOKING THE FORT POINT CHANNEL. ENJOY A WELCOME GIFT.",Superior Suite,"CWT|SUPERIOR SUITE ENJOY 1,200 SQ. FT. OF PURE LUXURY OVERLOOKING THE FORT POINT CHANNEL. ENJOY A WELCOME GIFT.",,,False,,{},,,,,,,
+15286,15286,FLEXIBLE RATE|1 KING EXECUTIVE FLOOR SHOWER ONLY CITY VIEW INCL WIFI EXEC LOUNGE ACCESS ROBES TOP FLOOR,Executive/Club Room,FLEXIBLE RATE|1 KING EXECUTIVE FLOOR SHOWER ONLY CITY VIEW INCL WIFI EXECUTIVE LOUNGE ACCESSIBLE ROBES TOP FLOOR,,,False,,{},,,,,,,
+22509,22509,"SENIOR DISCOUNT|1 KING BED SUPERIOR SUITE WEST BUILDING UPPER FLOOR NSMK WITH FREE WIFI, FREE BREAKFAST, SOFA",Superior Suite,"SENIOR DISCOUNT|1 KING BED SUPERIOR SUITE WEST BUILDING UPPER FLOOR NON SMOKING WITH FREE WIFI, FREE BREAKFAST, SOFA",,,False,,{},,,,,,,
+21134,21134,BED AND BREAKFAST|SUPERIOR ROOM-1 KING BED-CITY VIEW-LARGE WORKDESK - 60SQM 646SQF,Superior Room,BED AND BREAKFAST|SUPERIOR ROOM-1 KING BED-CITY VIEW-LARGE WORKDESK - 60SQM 646SQF,,,False,,{},,,,,,,
+26398,26398,"DINNER BED AND BKFST FULLY|FLEXIBLE RATE INCLUDES BREAKFAST AND THREE SINGLE ROOM SMOKING ELEGANCY WITH COMFORT AND RELAXATION 24 SQM ROOM FEATURING ONE BED, WORKING DESK WITH COMPLIMENTARY",Single Room,"DINNER BED AND BKFST FULLY|FLEXIBLE RATE INCLUDES BREAKFAST AND THREE SINGLE ROOM SMOKING ELEGANCY WITH COMFORT AND RELAXATION 24 SQM ROOM FEATURING ONE BED, WORKING DESK WITH COMPLIMENTARY",,,False,,{},,,,,,,
+210,210,"BEST AVAILABLE RATE FLEXIBLE|2 QUEEN ACCESSIBLE ROOM NSMK WITH FREE WIFI, FREE BUFFET BREAKFAST, ACCESSIBLE BATHROOM",Accessible Room,"BEST AVAILABLE RATE FLEXIBLE|2 QUEEN ACCESSIBLE ROOM NON SMOKING WITH FREE WIFI, FREE BUFFET BREAKFAST, ACCESSIBLE BATHROOM",,,False,,{},,,,,,,
+15746,15746,BED AND BREAKFAST|GRAND CLASSIC KING-450SQFT-BACCARAT FIXTURES LUX MASCIONI LINENS-ROUGE 540 AMENITIES-WIFI,Classic Room,BED AND BREAKFAST|GRAND CLASSIC KING-450SQFT-BACCARAT FIXTURES LUX MASCIONI LINENS-ROUGE 540 AMENITIES-WIFI,,,False,,{},,,,,,,
+27980,27980,BREAKFAST FOR 2 ADULTS FULL|BREAKFAST DAILY FOR UP TO TWO ADULTS SHARING A 1 KING BED CABANA WHIRLPOOL SUITE NOSMKG 600 SQ.FT.SUITE OVERLOOKING COURTYARD SPACIOUS BATHROOM WITH WHIRLPOOL TUB,Cabana,BREAKFAST FOR 2 ADULTS FULL|BREAKFAST DAILY FOR UP TO TWO ADULTS SHARING A 1 KING BED CABANA WHIRLPOOL SUITE NOSMKG 600 SQ.FT.SUITE OVERLOOKING COURTYARD SPACIOUS BATHROOM WITH WHIRLPOOL TUB,,,False,,{},,,,,,,
+14704,14704,FLEXIBLE RATE|2 QUEEN BEDS EXECUTIVE 1 BEDROOM SUITE SEPERATE PARLOR WITH SOFA BED,Executive/Club Room,FLEXIBLE RATE|2 QUEEN BEDS EXECUTIVE 1 BEDROOM SUITE SEPERATE PARLOR WITH SOFA BED,,,False,,{},,,,,,,
+20525,20525,BEST AVAILABLE RATE|STANDARD ROOM-ACCESSIBLE-1K-NON-SMOKING,Standard Room,BEST AVAILABLE RATE|STANDARD ROOM-ACCESSIBLE-1K-NON-SMOKING,,,False,,{},,,,,,,
+9300,9300,BEST AVAILABLE RATE|TWO BEDROOM COTTAGE - 720 SQ FT- KING BED 2 QUEEN BEDS- 2 BATHS - SOFA SLEEPER - GARDEN,Cottage,BEST AVAILABLE RATE|TWO BEDROOM COTTAGE - 720 SQ FT- KING BED 2 QUEEN BEDS- 2 BATHS - SOFA SLEEPER - GARDEN,,,False,,{},,,,,,,
+4341,4341,AAA SPECIAL|BRONZE KING ROOM-1 KING BED-250 SQ FT-FREE WIFI SMART 40 INCH TV-DELUXE BATHROOM AMENITIES-,King Bedroom,AAA SPECIAL|BRONZE KING ROOM-1 KING BED-250 SQ FT-FREE WIFI SMART 40 INCH TV-DELUXE BATHROOM AMENITIES-,,,False,,{},,,,,,,
+26812,26812,EXXONMOBIL|ECONOMY PETITE SINGLE ROOM 1 TWIN BED 90 SQ FT,Single Room,EXXONMOBIL|ECONOMY PETITE SINGLE ROOM 1 TWIN BED 90 SQ FT,,,False,,{},,,,,,,
+11285,11285,"MEMBR PREPAY NONREF|SEE RATE DETAILS, CITY VIEW, GUEST ROOM, 2 QUEEN",Guest Room,"MEMBR PREPAY NONREF|SEE RATE DETAILS, CITY VIEW, GUEST ROOM, 2 QUEEN",,,False,,{},,,,,,,
+491,491,STANDARD RATE|KING BED-ACCESSIBLE-NON-SMOKING,Accessible Room,STANDARD RATE|KING BED-ACCESSIBLE-NON-SMOKING,,,False,,{},,,,,,,
+25613,25613,BEST FLEXIBLE RATE|1 KING BED PRESIDENTIAL STE NONSMOKING RELAX AND UNWIND IN OUR PRESIDENTIAL SUITE FEATURING A LIVING ROOM AREA WITH,Presidential Suite,BEST FLEXIBLE RATE|1 KING BED PRESIDENTIAL SUITE NONSMOKING RELAX AND UNWIND IN OUR PRESIDENTIAL SUITE FEATURING A LIVING ROOM AREA WITH,,,False,,{},,,,,,,
+22389,22389,BEST AVAILABLE RATE|SUPERIOR SUITE PARTIAL OCEAN VIEW - KING BED 1735 SQFT WITH PATIO - LIVING ROOM - SOFA BED,Superior Suite,BEST AVAILABLE RATE|SUPERIOR SUITE PARTIAL OCEAN VIEW - KING BED 1735 SQFT WITH PATIO - LIVING ROOM - SOFA BED,,,False,,{},,,,,,,
+12384,12384,CORPORATE RATE|BUNGALOW QUEEN ROOM,Bungalow,CORPORATE RATE|BUNGALOW QUEEN ROOM,,,False,,{},,,,,,,
+6528,6528,"REGULAR RATE|FLEXIBLE RATE, STUDIO SUITE, STUDIO, 1 KING",Studio Suite,"REGULAR RATE|FLEXIBLE RATE, STUDIO SUITE, STUDIO, 1 KING",,,False,,{},,,,,,,
+30791,30791,"BCD TRAVEL|1 KING OR 2 QUEEN WHEN YOU ARRIVE, WE WILL DO OUR BEST TO MEET YOUR BED TYPE PREFERENCE, SUBJECT TO AVAILABILITY AND",Run of the House,"BCD TRAVEL|1 KING OR 2 QUEEN WHEN YOU ARRIVE, WE WILL DO OUR BEST TO MEET YOUR BED TYPE PREFERENCE, SUBJECT TO AVAILABILITY AND",,,False,,{},,,,,,,
+16338,16338,"REGULAR RATE - RO -|COMFORT ROOM WITH TWIN BEDS, 26 SQM",Comfort Room,"REGULAR RATE - RO -|COMFORT ROOM WITH TWIN BEDS, 26 SQM",,,False,,{},,,,,,,
+26894,26894,MASTERCARD OFFER|SINGLE ROOM PREMIUM 20 SQM QUEEN BED AIR CONDITION,Single Room,MASTERCARD OFFER|SINGLE ROOM PREMIUM 20 SQM QUEEN BED AIR CONDITION,,,False,,{},,,,,,,
+6081,6081,STAY MORE GET 15-20 PCT DISC|TRIPLEX PENTHOUSE-2BALCONIES-2000SQFT-INTERIOR 500SQFT-EXTERIOR-3 FLRS-KITCHENETTE-LIVING RM,Penthouse,STAY MORE GET 15-20 PCT DISC|TRIPLEX PENTHOUSE-2BALCONIES-2000SQFT-INTERIOR 500SQFT-EXTERIOR-3 FLRS-KITCHENETTE-LIVING ROOM,,,False,,{},,,,,,,
+23964,23964,"BED AND BREAKFAST PKG|BED AND BREAKFAST WITH PARKING, SEE RATE DETAILS, GRAND LUXE, LARGER GUEST ROOM, 1 KING",Luxury Room,"BED AND BREAKFAST PKG|BED AND BREAKFAST WITH PARKING, SEE RATE DETAILS, GRAND LUXE, LARGER GUEST ROOM, 1 KING",,,False,,{},,,,,,,
+25057,25057,RADIUS BY HOTELREZ ROOM ONLY|CLASSIC SUITE ENSUITE WIFI TV PARKING 24 HOUR RECEPTION - LUGGAGE STORAGE,Classic Suite,RADIUS BY HOTELREZ ROOM ONLY|CLASSIC SUITE ENSUITE WIFI TV PARKING 24 HOUR RECEPTION - LUGGAGE STORAGE,,,False,,{},,,,,,,
+96,96,FLEXIBLE RATE|2 DBL MOBILITY ACCESS W/ RI SHWR NO SMOK SWEET DREAMS EXPERIENCE BED,Accessible Room,FLEXIBLE RATE|2 DOUBLE MOBILITY ACCESSIBLE WITH/ RI SHWR NO SMOK SWEET DREAMS EXPERIENCE BED,,,False,,{},,,,,,,
+9375,9375,COMPLIMENTARY DINING|ORANGE OCEAN VIEW COTTAGE 2BDRM 2BATH 2150SQF 200SQM OCEAN VIEW EXPANSIVE DECK,Cottage,COMPLIMENTARY DINING|ORANGE OCEAN VIEW COTTAGE 2BDRM 2BATH 2150SQF 200SQM OCEAN VIEW EXPANSIVE DECK,,,False,,{},,,,,,,
+10337,10337,AAA MEMBERSHIP RATE|DOUBLE LOFT SUITE-2 DOUBLE BEDS-500 SQ.FT. LIVING AREA- FLAT SCREEN TV - COTTON ROBES,Loft,AAA MEMBERSHIP RATE|DOUBLE LOFT SUITE-2 DOUBLE BEDS-500 SQ.FT. LIVING AREA- FLAT SCREEN TV - COTTON ROBES,,,False,,{},,,,,,,
+23884,23884,"INTERNOVA  TRAVEL LEADERS|LUXURY ROOM, 2 SINGLE BEDS",Luxury Room,"INTERNOVA  TRAVEL LEADERS|LUXURY ROOM, 2 SINGLE BEDS",,,False,,{},,,,,,,
+17556,17556,"SIGNATURE TRAVEL NETWORK RATE|DELUXE KING ROOM, 1 KING BED 520 SQ FT, VARIOUS VIEWS, WIFI",Deluxe Room,"SIGNATURE TRAVEL NETWORK RATE|DELUXE KING ROOM, 1 KING BED 520 SQ FT, VARIOUS VIEWS, WIFI",,,False,,{},,,,,,,
+13677,13677,LUXURY GETAWAY AND VALET|JUNIOR STE-ADA-NONSM-720 SQFT. 1 KING BED. SOFABED.FREE WIFI.55-IN TV.INCLUDES CLUB ACCESS,Junior Suite,LUXURY GETAWAY AND VALET|JUNIOR SUITE-ACCESSIBLE-NONSM-720 SQFT. 1 KING BED. SOFABED.FREE WIFI.55-IN TV.INCLUDES CLUB ACCESSIBLE,,,False,,{},,,,,,,
+3752,3752,EAT. DRINK. OUR TREAT|CITY VIEW KING ROOM - FREE WI FI - 400 SQ FT KING BED - HIGH FLOORS - VIEW OF HOLLYWOOD,King Bedroom,EAT. DRINK. OUR TREAT|CITY VIEW KING ROOM - FREE WI FI - 400 SQ FT KING BED - HIGH FLOORS - VIEW OF HOLLYWOOD,,,False,,{},,,,,,,
+1427,1427,BEST AVAILABLE RATE|PLATINUM SUITE,Suite,BEST AVAILABLE RATE|PLATINUM SUITE,,,False,,{},,,,,,,
+733,733,BED AND BRKFST* 1 KNG ADA SHOW|ADA 1 KING BED: ROLL IN SHOWER:OUTSIDE/ATRIUM,Accessible Room,BED AND BRKFST* 1 KNG ACCESSIBLE SHOW|ACCESSIBLE 1 KING BED: ROLL IN SHOWER:OUTSIDE/ATRIUM,,,False,,{},,,,,,,
+6427,6427,WORLD RAINBOW BAR RATE|JUNIOR STUDIO SUITE APPROX 475 SQFT - KING BED W QUEEN SIZE PULL OUT COUCH - NEST AMENITIES,Studio Suite,WORLD RAINBOW BAR RATE|JUNIOR STUDIO SUITE APPROX 475 SQFT - KING BED WITH QUEEN SIZE PULL OUT COUCH - NEST AMENITIES,,,False,,{},,,,,,,
+8439,8439,SEMI-FLEX|3 BEDS - 1 KING 2 QUEEN FAMILY SUITE NONSMOK COMP WIFI/DAY-SWEET DREAMS EXPERIENCE BED,Family Room/Suite,SEMI-FLEX|3 BEDS - 1 KING 2 QUEEN FAMILY SUITE NONSMOK COMP WIFI/DAY-SWEET DREAMS EXPERIENCE BED,,,False,,{},,,,,,,
+18273,18273,AAA RATE|DELUXE SUITE WITH 1 KING BED AND QUEEN SOFA BED,Deluxe Suite,AAA RATE|DELUXE SUITE WITH 1 KING BED AND QUEEN SOFA BED,,,False,,{},,,,,,,
+25479,25479,CWT BUSINESS RATES|GRAND PRESIDENTIAL SUITE.3035 SQ FT. FIREPLACE. FLOOR-TO-CEILING WINDOWS. GUEST ROOM 2 BEDS,Presidential Suite,CWT BUSINESS RATES|GRAND PRESIDENTIAL SUITE.3035 SQ FT. FIREPLACE. FLOOR-TO-CEILING WINDOWS. GUEST ROOM 2 BEDS,,,False,,{},,,,,,,
+4168,4168,"REGULAR RATE|FLEXIBLE RATE, PREPAY IN FULL, LAGOON KING ROOM, GUEST ROOM, 1 KING, POOL ACCESS, BALCONY",King Bedroom,"REGULAR RATE|FLEXIBLE RATE, PREPAY IN FULL, LAGOON KING ROOM, GUEST ROOM, 1 KING, POOL ACCESSIBLE, BALCONY",,,False,,{},,,,,,,
+4894,4894,CWT PROGRAM -HONORS DISCOUNT|QUEEN ROOM FREE WI-FI/HOT BREAKFAST INCLUDED/HDTV/SAFE,Queen Bedroom,CWT PROGRAM -HONORS DISCOUNT|QUEEN ROOM FREE WI-FI/HOT BREAKFAST INCLUDED/HDTV/SAFE,,,False,,{},,,,,,,
+27048,27048,MRATE AVAIL BOOK WITH CONFIDEN|SUPERIOR SINGLE ROOM,Single Room,MRATE AVAIL BOOK WITH CONFIDEN|SUPERIOR SINGLE ROOM,,,False,,{},,,,,,,
+28360,28360,MAGELLAN LUXURY HOTELS|CABANA KING 300SQFT-POOL-INNER COURTYARD VIEWS GROUND FLOOR- PRIVATE CABANA STYLE PATIO,Cabana,MAGELLAN LUXURY HOTELS|CABANA KING 300SQFT-POOL-INNER COURTYARD VIEWS GROUND FLOOR- PRIVATE CABANA STYLE PATIO,,,False,,{},,,,,,,
+1330,1330,FLEXIBLE RATE|HASTENS ULTIMATE SLEEP SUITE - 2500 SF 232 SM - TWO BEDROOMS WITH EXCLUSIVE HASTENS BEDDING,Suite,FLEXIBLE RATE|HASTENS ULTIMATE SLEEP SUITE - 2500 SF 232 SM - TWO BEDROOMS WITH EXCLUSIVE HASTENS BEDDING,,,False,,{},,,,,,,
+14928,14928,"WELCOME BACK SALE|EXECUTIVE 2 TWINS, NON SMOKING, WIFI, CITY VIEW, UPPER FLOOR",Executive/Club Room,"WELCOME BACK SALE|EXECUTIVE 2 TWINS, NON SMOKING, WIFI, CITY VIEW, UPPER FLOOR",,,False,,{},,,,,,,
+8517,8517,MRATE AVAIL FLEXIBLE RATE|FAMILY ROOM WITH 1 DOUBLE BED   SOFA BED,Family Room/Suite,MRATE AVAIL FLEXIBLE RATE|FAMILY ROOM WITH 1 DOUBLE BED   SOFA BED,,,False,,{},,,,,,,
+20959,20959,SEASONAL RATE|SUPERIOR ROOM-1KING-CITY VIEW-LEDTV COMP WIFI-GLOBAL VOIP-TV OVER BATHTUB-542SQFT,Superior Room,SEASONAL RATE|SUPERIOR ROOM-1KING-CITY VIEW-LEDTV COMP WIFI-GLOBAL VOIP-TV OVER BATHTUB-542SQFT,,,False,,{},,,,,,,
+16203,16203,"RESTRICTED RATE|CLASSIC KING ROOM  ISLAND VIEW 1 PERS. AI 330 SQ.FT, KING DOUBLE BED, 32 INCH LCD TV",Classic Room,"RESTRICTED RATE|CLASSIC KING ROOM  ISLAND VIEW 1 PERS. AI 330 SQ.FT, KING DOUBLE BED, 32 INCH LCD TV",,,False,,{},,,,,,,
+24688,24688,ADVANCE PURCHASE|HOYT HOUSE CLASSIC STE-375SQFT-1 KING-STAY IN OUR 19TH CENTURY REPURPOSED FARMHOUSE-FREE WIFI,Classic Suite,ADVANCE PURCHASE|HOYT HOUSE CLASSIC SUITE-375SQFT-1 KING-STAY IN OUR 19TH CENTURY REPURPOSED FARMHOUSE-FREE WIFI,,,False,,{},,,,,,,
+2918,2918,LIVE LIKE A LOCAL|CAPITOL DOUBLE ROOM W ADA FEAT. FREE WIFI. 400 SQ FT. FLOOR TO CEILING WINDOWS. WORK DESK.,Double Bed,LIVE LIKE A LOCAL|CAPITOL DOUBLE ROOM WITH ACCESSIBLE FEAT. FREE WIFI. 400 SQ FT. FLOOR TO CEILING WINDOWS. WORK DESK.,,,False,,{},,,,,,,
+14902,14902,TRIPADVISOR PLUS RATE|EXC 431SF ACCESS ROLLN SHWR-FULL KIT-UPSCL AMEN NESPRESSO-FREE WIFI-HARDWOOD FLRS-TRIPLE SHWR,Executive/Club Room,TRIPADVISOR PLUS RATE|EXC 431SF ACCESSIBLE ROLLN SHWR-FULL KIT-UPSCL AMEN NESPRESSO-FREE WIFI-HARDWOOD FLRS-TRIPLE SHWR,,,False,,{},,,,,,,
+30600,30600,STATE GOVERNMENT|KING LUXURY SUITE EXECUTIVE TOWER RELAX AND UNWIND INSIDE OUR LARGEST EXECUTIVE TOWER SUITE. ENJOY 700  SQ. FT. OF,Luxury Suite,STATE GOVERNMENT|KING LUXURY SUITE EXECUTIVE TOWER RELAX AND UNWIND INSIDE OUR LARGEST EXECUTIVE TOWER SUITE. ENJOY 700  SQ. FT. OF,,,False,,{},,,,,,,
+6888,6888,2X POINTS|STUDIO SUITE - ONE KING BED SEATING AREA WITH SOFA-DOUBLE VANITY,Studio Suite,2X POINTS|STUDIO SUITE - ONE KING BED SEATING AREA WITH SOFA-DOUBLE VANITY,,,False,,{},,,,,,,
+2900,2900,FLEXIBLE -WITH BREAKFAST|SUPERIOR DOUBLE ROOM FREE WIFI AC MINIBAR SAFE DESK SMART FLATSCREEN TV RATE INCLUDES BREAKFAST VAT AND FREE WIFI,Double Bed,FLEXIBLE -WITH BREAKFAST|SUPERIOR DOUBLE ROOM FREE WIFI AC MINIBAR SAFE DESK SMART FLATSCREEN TV RATE INCLUDES BREAKFAST VAT AND FREE WIFI,,,False,,{},,,,,,,

@@ -1,35 +1,25 @@
-torch
-transformers
-accelerate
-datasets
-evaluate
 numpy
 pandas
 tqdm
-wandb
-sentencepiece
-ipykernel
-jupyter 
-notebook
-openpyxl
+
+# Visualization
 matplotlib
 seaborn
-scikit-learn
-scipy
 plotly
-fuzzywuzzy
-xlsxwriter
+streamlit
 
 # LLMs
-google-generativeai
 vertexai
 sentence_transformers
 bertopic
 spacy
-stanza
 gensim
+torch
+transformers
 
 # Finetuning
 peft
 accelerate
 bitsandbytes
+datasets
+wandb
